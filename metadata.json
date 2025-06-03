@@ -1,0 +1,5 @@
+{
+  "name": "Human Osteology Explorer",
+  "description": "An interactive, visually engaging application to explore the names and categories of human bones. Features a sci-fi inspired interface with filtering capabilities.",
+  "requestFramePermissions": []
+}
