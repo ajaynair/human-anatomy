@@ -22,20 +22,20 @@ export const BONE_DATA: Bone[] = [
   { id: 'auditory_malleus', name: 'Malleus', category: BoneCategory.AUDITORY, description: 'Hammer-shaped bone in the middle ear.', count: 2 },
   { id: 'auditory_incus', name: 'Incus', category: BoneCategory.AUDITORY, description: 'Anvil-shaped bone in the middle ear.', count: 2 },
   { id: 'auditory_stapes', name: 'Stapes', category: BoneCategory.AUDITORY, description: 'Stirrup-shaped bone in the middle ear, smallest bone in the human body.', count: 2 },
-  
+
   // Spine
-  { id: 'spine_cervical', name: 'Cervical Vertebrae (C1-C7)', category: BoneCategory.SPINE, description: 'Seven vertebrae forming the neck region. C1 is Atlas, C2 is Axis.', count: 7 },
-  { id: 'spine_thoracic', name: 'Thoracic Vertebrae (T1-T12)', category: BoneCategory.SPINE, description: 'Twelve vertebrae articulating with the ribs.', count: 12 },
-  { id: 'spine_lumbar', name: 'Lumbar Vertebrae (L1-L5)', category: BoneCategory.SPINE, description: 'Five vertebrae in the lower back.', count: 5 },
-  { id: 'spine_sacrum', name: 'Sacrum', category: BoneCategory.SPINE, scientificName: 'Os sacrum', description: 'Triangular bone formed by fusion of five sacral vertebrae.', count: '1 (5 fused)' },
-  { id: 'spine_coccyx', name: 'Coccyx', category: BoneCategory.SPINE, scientificName: 'Os coccygis', description: 'Tailbone, formed by fusion of typically four coccygeal vertebrae.', count: '1 (3-5 fused)' },
+  { id: 'spine_cervical', name: 'Cervical Vertebrae (C1-C7)', category: BoneCategory.SPINE, description: 'Seven vertebrae forming the neck region: Atlas (C1), Axis (C2), C3, C4, C5, C6, and C7.', count: 7 },
+  { id: 'spine_thoracic', name: 'Thoracic Vertebrae (T1-T12)', category: BoneCategory.SPINE, description: 'Twelve vertebrae articulating with the ribs: T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, and T12.', count: 12 },
+  { id: 'spine_lumbar', name: 'Lumbar Vertebrae (L1-L5)', category: BoneCategory.SPINE, description: 'Five vertebrae in the lower back: L1, L2, L3, L4, and L5.', count: 5 },
+  { id: 'spine_sacrum', name: 'Sacrum', category: BoneCategory.SPINE, scientificName: 'Os sacrum', description: 'Triangular bone formed by the fusion of five sacral vertebrae: S1, S2, S3, S4, and S5.', count: '1 (5 fused)' },
+  { id: 'spine_coccyx', name: 'Coccyx', category: BoneCategory.SPINE, scientificName: 'Os coccygis', description: 'Tailbone, formed by the fusion of typically three to five coccygeal vertebrae (Co1, Co2, Co3, Co4, sometimes Co5).', count: '1 (3-5 fused)' },
 
   // Thorax
   { id: 'thorax_sternum', name: 'Sternum', category: BoneCategory.THORAX, scientificName: 'Sternum', description: 'Breastbone, located in the center of the chest.', count: 1 },
-  { id: 'thorax_ribs', name: 'Ribs', category: BoneCategory.THORAX, scientificName: 'Costae', description: 'Twelve pairs of bones forming the rib cage. (True, False, Floating)', count: '24 (12 pairs)' },
-  
+  { id: 'thorax_ribs', name: 'Ribs', category: BoneCategory.THORAX, scientificName: 'Costae', description: 'Twenty-four bones (12 pairs: 1st to 12th Rib on each side) forming the rib cage. Categorized into: True Ribs (Pairs 1-7) attach directly to the sternum. False Ribs (Pairs 8-10) attach indirectly via costal cartilage. Floating Ribs (Pairs 11-12) do not attach anteriorly.', count: '24 (12 pairs)' },
+
   // Pelvis
-  { id: 'pelvis_hip', name: 'Hip Bone (Os Coxae)', category: BoneCategory.PELVIS, scientificName: 'Os coxae / Innominate bone', description: 'Large, flattened, irregularly shaped bone, constricted in the center and expanded above and below. Composed of Ilium, Ischium, and Pubis.', count: 2 },
+  { id: 'pelvis_hip', name: 'Hip Bone (Os Coxae)', category: BoneCategory.PELVIS, scientificName: 'Os coxae / Innominate bone', description: 'Large, flattened, irregularly shaped bone, constricted in the center and expanded above and below. Composed of three fused bones: Ilium, Ischium, and Pubis.', count: 2 },
 
   // Upper Limb
   { id: 'upper_clavicle', name: 'Clavicle', category: BoneCategory.UPPER_LIMB, scientificName: 'Clavicula', description: 'Collarbone.', count: 2 },
@@ -46,8 +46,8 @@ export const BONE_DATA: Bone[] = [
 
   // Hand Bones
   { id: 'hand_carpals', name: 'Carpals', category: BoneCategory.HAND, description: 'Eight small bones forming the wrist: Scaphoid, Lunate, Triquetrum, Pisiform, Trapezium, Trapezoid, Capitate, Hamate.', count: '16 (8 per hand)' },
-  { id: 'hand_metacarpals', name: 'Metacarpals', category: BoneCategory.HAND, description: 'Five bones forming the palm of the hand.', count: '10 (5 per hand)' },
-  { id: 'hand_phalanges', name: 'Phalanges (Hand)', category: BoneCategory.HAND, description: 'Bones of the fingers (Proximal, Middle, Distal). Thumb has two.', count: '28 (14 per hand)' },
+  { id: 'hand_metacarpals', name: 'Metacarpals', category: BoneCategory.HAND, description: 'Five bones forming the palm of the hand, numbered I to V from thumb to little finger (First Metacarpal, Second Metacarpal, Third Metacarpal, Fourth Metacarpal, Fifth Metacarpal).', count: '10 (5 per hand)' },
+  { id: 'hand_phalanges', name: 'Phalanges (Hand)', category: BoneCategory.HAND, description: 'Bones of the fingers (Proximal, Middle, Distal). The thumb has two (proximal and distal); other fingers have three.', count: '28 (14 per hand)' },
 
   // Lower Limb
   { id: 'lower_femur', name: 'Femur', category: BoneCategory.LOWER_LIMB, scientificName: 'Femur', description: 'Thigh bone, longest and strongest bone in the body.', count: 2 },
@@ -57,6 +57,6 @@ export const BONE_DATA: Bone[] = [
 
   // Foot Bones
   { id: 'foot_tarsals', name: 'Tarsals', category: BoneCategory.FOOT, description: 'Seven bones forming the ankle and upper foot: Calcaneus, Talus, Navicular, Cuboid, Medial Cuneiform, Intermediate Cuneiform, Lateral Cuneiform.', count: '14 (7 per foot)' },
-  { id: 'foot_metatarsals', name: 'Metatarsals', category: BoneCategory.FOOT, description: 'Five bones forming the main part of the foot.', count: '10 (5 per foot)' },
-  { id: 'foot_phalanges', name: 'Phalanges (Foot)', category: BoneCategory.FOOT, description: 'Bones of the toes (Proximal, Middle, Distal). Big toe has two.', count: '28 (14 per foot)' },
+  { id: 'foot_metatarsals', name: 'Metatarsals', category: BoneCategory.FOOT, description: 'Five bones forming the main part of the foot, numbered I to V from big toe to little toe (First Metatarsal, Second Metatarsal, Third Metatarsal, Fourth Metatarsal, Fifth Metatarsal).', count: '10 (5 per foot)' },
+  { id: 'foot_phalanges', name: 'Phalanges (Foot)', category: BoneCategory.FOOT, description: 'Bones of the toes (Proximal, Middle, Distal). The big toe has two (proximal and distal); other toes have three.', count: '28 (14 per foot)' },
 ];
